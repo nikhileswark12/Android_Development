@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar"/>
+
+
+    <!-- Base button -->
+    <style name="CalculatorButtonBase" parent="Widget.Material3.Button">
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- BLUE number buttons -->
+    <style name="CalculatorButtonNumber" parent="CalculatorButtonBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_number_blue</item>
+    </style>
+
+    <!-- GREEN operator buttons -->
+    <style name="CalculatorButtonOperator" parent="CalculatorButtonBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_operator_green</item>
+    </style>
+
+    <!-- PURPLE equals -->
+    <style name="CalculatorButtonEquals" parent="CalculatorButtonBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_equals_purple</item>
+    </style>
+
+    <!-- ORANGE clear -->
+    <style name="CalculatorButtonClear" parent="CalculatorButtonBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_clear_orange</item>
+    </style>
+
+</resources>

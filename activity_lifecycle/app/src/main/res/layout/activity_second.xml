@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootSecond"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/titleSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lifecycle Demo - SecondActivity"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish (Back)" />
+
+    <TextView
+        android:id="@+id/logTextViewSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Events will appear here..."
+        android:layout_marginTop="12dp" />
+</LinearLayout>

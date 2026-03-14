@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpinnerImageApp</string>
+    <string-array name="animal_names">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+    </string-array>
+</resources>

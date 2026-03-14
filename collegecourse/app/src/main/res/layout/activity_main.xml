@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Course"
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioBCA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCA"/>
+
+            <RadioButton
+                android:id="@+id/radioBBA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BBA"/>
+
+            <RadioButton
+                android:id="@+id/radioMCA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCA"/>
+
+            <RadioButton
+                android:id="@+id/radioMBA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBA"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtTic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a course to view TIC"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
