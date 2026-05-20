@@ -8,52 +8,49 @@ The projects included in this repository were created for academic learning and 
 
 ## Project List
 
-1. **hello_world**  
-   A basic introductory Android application created to understand project structure, layout design, and simple user interface elements.
-
-2. **ActivityLifecycle**  
+1. **ActivityLifecycle**  
    A project developed to study the Android Activity Lifecycle and observe how activities behave in different states.
 
-3. **IntentDemo**  
+2. **IntentDemo**  
    Demonstrates the use of explicit intents for navigating from one activity to another within an application.
 
-4. **ImplicitIntentApp**  
+3. **ImplicitIntentApp**  
    Demonstrates implicit intents for performing actions such as opening external applications, websites, or system features.
 
-5. **Calculator**  
+4. **Calculator**  
    A basic calculator application that performs simple arithmetic operations and helps understand input handling and event-driven programming.
 
-6. **SpinnerImageApp**  
+5. **SpinnerImageApp**  
    An application that demonstrates the implementation of a spinner and image display functionality in Android.
 
-7. **discount_calculator**  
+6. **discount_calculator**  
    A simple application designed to calculate discount values based on user input.
 
-8. **CollegeCourse**  
+7. **CollegeCourse**  
    A project related to displaying or organizing college course information through an Android interface.
 
-9. **ShoppingList**  
+8. **ShoppingList**  
    A basic shopping list application used to add, manage, and display items dynamically.
 
-10. **LoginApp**  
+9. **LoginApp**  
     A simple login interface created to understand user input fields, buttons, and basic validation flow.
 
-11. **LoginLogout**  
+10. **LoginLogout**  
     An application demonstrating login and logout functionality with a simple user interaction flow.
 
-12. **MenuApp**  
+11. **MenuApp**  
     A project built to understand the implementation and use of menus in Android applications.
 
-13. **LinearLayoutApp**  
+12. **LinearLayoutApp**  
     Demonstrates the use of Linear Layout for arranging user interface components in a structured way.
 
-14. **TableLayoutApp**  
+13. **TableLayoutApp**  
     A project created to understand Table Layout and how components can be organized in rows and columns.
 
-15. **SQLiteCrud**  
+14. **SQLiteCrud**  
     An Android project that demonstrates Create, Read, Update, and Delete operations using SQLite database.
 
-16. **ColorChanger**  
+15. **ColorChanger**  
     An application with multiple buttons that change the background color of the screen based on user interaction.
 
 ## Technologies Used
