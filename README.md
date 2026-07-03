@@ -2,7 +2,7 @@
 
 ## Android Application Development Projects
 
-This repository is a comprehensive collection of Android Studio projects developed to strengthen practical knowledge of native Android application development. It demonstrates the implementation of fundamental Android concepts through a series of hands-on projects covering user interface design, activity management, navigation, data persistence, and event-driven programming.
+A comprehensive collection of Android Studio projects developed to strengthen practical knowledge of native Android application development. This repository demonstrates the implementation of fundamental Android concepts through a series of hands-on projects covering user interface design, activity management, navigation, data persistence, and event-driven programming.
 
 Each project focuses on a specific Android component or feature, providing practical experience with the Android SDK while reinforcing core software development principles. Together, these projects form a structured learning portfolio that reflects the progression from basic Android concepts to database-driven mobile applications.
 
@@ -10,9 +10,13 @@ Each project focuses on a specific Android component or feature, providing pract
 
 ## Overview
 
-Android application development requires a strong understanding of application architecture, lifecycle management, user interface design, navigation patterns, and local data storage. This repository brings together a collection of independent Android Studio projects that explore these concepts through practical implementation.
+Android application development requires a strong understanding of application architecture, lifecycle management, user interface design, navigation patterns, and local data storage.
 
-Rather than building a single application, each project has been developed with a specific learning objective, allowing individual Android components to be explored in isolation before integrating them into more complex applications. This modular approach provides a deeper understanding of Android development while encouraging clean project organization and reusable programming practices.
+This repository brings together a collection of independent Android Studio projects that explore these concepts through practical implementation.
+
+Rather than building a single application, each project has been developed with a specific learning objective, allowing individual Android components to be explored in isolation before integrating them into more complex applications.
+
+This modular approach provides a deeper understanding of Android development while encouraging clean project organization and reusable programming practices.
 
 ---
 
@@ -20,63 +24,59 @@ Rather than building a single application, each project has been developed with 
 
 The projects included in this repository demonstrate practical implementation of the following Android development concepts:
 
-* Android project structure and application architecture
-* Activity lifecycle management
-* Explicit and implicit intents
-* User interface development using XML
-* Event-driven programming
-* User input handling and validation
-* Activity navigation
-* Layout management using LinearLayout and TableLayout
-* Spinner implementation
-* Menu creation and management
-* SQLite database integration
-* CRUD (Create, Read, Update, Delete) operations
-* Dynamic user interface updates
-* Application state management
-* Android Studio development workflow
+- Android project structure and application architecture
+- Activity lifecycle management
+- Explicit and implicit intents
+- User interface development using XML
+- Event-driven programming
+- User input handling and validation
+- Activity navigation
+- Layout management using LinearLayout and TableLayout
+- Spinner implementation
+- Menu creation and management
+- SQLite database integration
+- CRUD (Create, Read, Update, Delete) operations
+- Dynamic user interface updates
+- Application state management
+- Android Studio development workflow
 
 ---
 
 ## Projects
 
-The repository includes a variety of Android applications developed to explore different areas of native Android development, including:
+The repository contains the following Android Studio projects:
 
-* Activity Lifecycle
-* Explicit Intent Demonstration
-* Implicit Intent Demonstration
-* Calculator Application
-* Spinner and Image Display
-* Discount Calculator
-* College Course Application
-* Shopping List Application
-* Login Interface
-* Login and Logout Workflow
-* Android Menu Implementation
-* LinearLayout Demonstration
-* TableLayout Demonstration
-* SQLite CRUD Operations
-* Dynamic Color Changer
+| Project | Concept |
+|----------|---------|
+| Activity Lifecycle | Activity lifecycle management |
+| Explicit Intent Demonstration | Explicit intents |
+| Implicit Intent Demonstration | Implicit intents |
+| Calculator Application | User input & arithmetic operations |
+| Spinner and Image Display | Spinner widget & image handling |
+| Discount Calculator | Form handling & calculations |
+| College Course Application | UI components & navigation |
+| Shopping List Application | Dynamic list management |
+| Login Interface | Authentication UI |
+| Login and Logout Workflow | Session navigation |
+| Android Menu Implementation | Menu creation |
+| LinearLayout Demonstration | LinearLayout usage |
+| TableLayout Demonstration | TableLayout usage |
+| SQLite CRUD Operations | Database integration |
+| Dynamic Color Changer | Event handling & UI updates |
 
 Each project is self-contained and demonstrates the implementation of a specific Android concept while following standard Android Studio project structure and development practices.
 
 ---
 
-## Technologies Used
+## Technology Stack
 
-### Development Environment
-
-* Android Studio
-* Android SDK
-
-### Programming Languages
-
-* Java
-* XML
-
-### Database
-
-* SQLite
+| Category | Technologies |
+|:---------|:-------------|
+| **Development Environment** | <img src="https://skillicons.dev/icons?i=androidstudio" /> |
+| **Programming Languages** | <img src="https://skillicons.dev/icons?i=java" /> |
+| **UI Design** | XML Layouts |
+| **Database** | SQLite |
+| **SDK** | Android SDK |
 
 ---
 
@@ -84,19 +84,48 @@ Each project is self-contained and demonstrates the implementation of a specific
 
 This repository showcases practical experience in:
 
-* Native Android application development
-* Object-oriented programming using Java
-* User interface design with XML layouts
-* Android Activity and Intent management
-* Event handling and user interaction
-* Local database design using SQLite
-* Mobile application debugging and testing
-* Android project organization and development best practices
+- Native Android application development
+- Object-oriented programming using Java
+- User interface design with XML layouts
+- Android Activity and Intent management
+- Event handling and user interaction
+- Local database design using SQLite
+- Mobile application debugging and testing
+- Android project organization and development best practices
 
 ---
 
 ## Purpose
 
-This repository serves as a structured portfolio of Android application development projects, documenting the practical implementation of core Android concepts through hands-on learning. It provides an organized reference for native Android development while demonstrating continuous growth in building mobile applications using Java and the Android SDK.
+This repository serves as a structured portfolio of Android application development projects, documenting the practical implementation of core Android concepts through hands-on learning.
 
-The projects collectively represent a strong foundation in Android development, covering essential topics required for creating responsive, interactive, and data-driven mobile applications. As development continues, this repository will expand with additional projects that explore more advanced Android features, modern development practices, and emerging mobile technologies.
+It provides an organized reference for native Android development while demonstrating continuous growth in building mobile applications using Java and the Android SDK.
+
+The projects collectively represent a strong foundation in Android development, covering essential topics required for creating responsive, interactive, and data-driven mobile applications.
+
+As development continues, this repository will expand with additional projects that explore more advanced Android features, modern development practices, and emerging mobile technologies.
+
+---
+
+## Repository Structure
+
+```text
+Android-Development/
+├── ActivityLifecycle/
+├── ExplicitIntent/
+├── ImplicitIntent/
+├── Calculator/
+├── SpinnerImage/
+├── DiscountCalculator/
+├── CollegeCourse/
+├── ShoppingList/
+├── Login/
+├── LoginLogout/
+├── MenuDemo/
+├── LinearLayout/
+├── TableLayout/
+├── SQLiteCRUD/
+└── DynamicColorChanger/
+```
+
+> *The actual folder names may vary depending on your repository structure.*
